@@ -64,16 +64,33 @@ body {
     }
     /*Style links*/
     nav a {
-        display: inline-block;
-        padding-top: 15px;
+        font-size: 15px;
+        color:#ffffff;
+        text-decoration: none;
+        font-weight: 500;
+        transition: 1s;
+        
     }
     /*Bolden text <-- by hover*/
     nav a:hover {
-        font-weight: bold; 
+        color:#1117d2;
     }
     /*Color change link <-- if active*/
     nav a:active {
         color:#2323a5; 
+    }
+
+    section {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center ;
+        background:#1f242d;
+        font-size: 50px;
+        color: #fff;
+        font-weight: 700;
+    }
+    section:nth-child(odd) {
+        background:#323946;
     }
 .Profilbild {
     height: 200px ;
