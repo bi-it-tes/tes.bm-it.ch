@@ -2,6 +2,8 @@
 body {
     background-color:#081022;
     font-size: 16px;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -95,14 +97,18 @@ body {
         display: flex;
         justify-content: center ;
         background:#081022;
-        ;
-        font-size: 50px;
+        font-size: 40px;
         color: #fff;
         font-weight: 700;
     }
     section:nth-child(odd) {
         background:#232b40;
         ;
+    }
+
+    .contact form {
+        width: 600px;
+        text-align: center;
     }
 .Profilbild {
     height: 200px ;
