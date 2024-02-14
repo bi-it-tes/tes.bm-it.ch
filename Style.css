@@ -184,6 +184,22 @@ p1{ font-size: 18px;
     .logo-header {
         top: 15%;
     }
+    header {
+        padding: 5px 20px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    li {
+        margin: 5px 0;
+    }
+    nav a {
+        margin-left: 0;
+    }
+    .navigation {
+        height: auto;
+    }
     .Profilbild{
         height: 150px;
         width: 150px;
@@ -221,6 +237,23 @@ p1{ font-size: 18px;
     }
     .logo-header {
         top: 10%;
+    }
+    header {
+        padding: 5px 10px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    li {
+        margin: 3px 0;
+    }
+    nav a {
+        font-size: 16px;
+        margin-left: 0;
+    }
+    .navigation {
+        height: auto;
     }
     .Profilbild {
         height: 120px;
