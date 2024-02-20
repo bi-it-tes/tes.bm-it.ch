@@ -25,7 +25,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
             //navigation visible after intro
             navigation.style.display = 'flex';
-            navigation.style.opacity = 1;
         }, 2300);
     });
 });
