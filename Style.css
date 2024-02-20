@@ -60,7 +60,7 @@ body {
     .navigation {
         background-color: #000000;
         height: 50px;
-        display: flex;
+        display: none;
         align-items: center; /*Center vertically*/
         justify-content: center; /*Center horizontally*/
     }

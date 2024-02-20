@@ -1,6 +1,6 @@
 let intro = document.querySelector('.intro');
-let lofo = document.querySelector('.logo-header');
 let logoSpan = document.querySelectorAll('.logo');
+let navigation = document.querySelector('.navigation');
 
 window.addEventListener('DOMContentLoaded', () => {
 
@@ -22,6 +22,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
         setTimeout(()=>{
             intro.style.top = '-100vh';
+
+            //navigation visible after intro
+            navigation.style.display = 'flex';
+            navigation.style.opacity = 1;
         }, 2300);
     });
 });
