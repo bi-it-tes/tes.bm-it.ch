@@ -93,9 +93,9 @@ body {
     
 
     section {
-        min-height: 100vh;
         display: flex;
         justify-content: center ;
+        align-items: center;
         background:#081022;
         font-size: 40px;
         color: #fff;
@@ -154,8 +154,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    height: 100vh;}
+    justify-content: center;
+    height: 100vh;
+    text-align: center;}
 
 h1{
     font-size: 48px;
@@ -223,7 +224,11 @@ p1{ font-size: 18px;
         justify-content: center;
     }
     .Motivation {
-        max-width: 50%;
+        max-width: 10%;
+        border: 4px solid #343deb;
+        border-radius: 10px;
+        display: block;
+        margin: 0 auto;
     }
     .centered {
         padding: 0 20px;
