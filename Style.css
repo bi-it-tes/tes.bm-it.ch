@@ -1,4 +1,5 @@
 /* Style.css */
+/*Basic Style for body*/
 body {
 	background-color:#081022;
 	font-size: 16px;
@@ -8,6 +9,8 @@ body {
 	padding: 0;
 	font-family: Arial, sans-serif;
 }
+
+/* Welcome Intro Styles*/
 .intro {
 	position: fixed;
 	z-index: 1;
@@ -18,6 +21,7 @@ body {
 	background-color: black;
 	transition: 1s;
 }
+/*Logo header Styling*/
 .logo-header{
 	position: absolute;
 	top: 40%;
@@ -25,6 +29,7 @@ body {
 	transform: translate(-50%, -50%);
 	color: #ffffff;
 }
+/*logo animation on the website Styling*/
 .logo{
 	position: relative;
 	display: inline-block;
@@ -41,7 +46,7 @@ body {
 	opacity: 0;
 	transition: ease-in-out 0.5s;
 }
-/*Navigation*/
+/*Navigation Styling*/
 header {
 	position: fixed;
 	top: 0;
@@ -54,6 +59,7 @@ header {
 	align-items: center;
 	z-index: 100;
 }
+/*Navigationelemente Styling*/
 .navigation {
 	background-color: #000000;
 	height: 50px;
@@ -70,11 +76,10 @@ nav ul {
 	margin: 0;
 	display: flex;
 }
-/*Style --> links*/
+/*navigation links Styles*/
 li {
 	margin: 15px;
 }
-/*Style links*/
 nav a {
 	font-size: 18px;
 	color:#ffffff;
@@ -83,10 +88,11 @@ nav a {
 	transition: 1s;
 	margin-left: 150px;
 }
-/*Bolden text <-- by hover*/
+	/*Bolden text <-- by hover*/
 nav a:hover,nav a:active {
 	color:#1117d2;
 }
+/*sections Styles*/
 section {
 	display: flex;
 	justify-content: center ;
@@ -100,6 +106,15 @@ section:nth-child(odd) {
 	background:#232b40;
 	;
 }
+
+#skills p2 {
+	font-size: 14px;
+}
+
+#resume p2 {
+	font-size: 14px;
+}
+
 .contact form {
 	width: 600px;
 	text-align: center;
@@ -112,7 +127,7 @@ section:nth-child(odd) {
 	/* Blauen rahmen*/
 	border-radius: 50%;
 }
-/*Bild runden*/
+/*Round Image Style*/
 .text-animation {
 	color: transparent;
 	display: flex;
@@ -143,6 +158,7 @@ section:nth-child(odd) {
 		-webkit-text-stroke: 0;
 	}
 }
+/*centering the page Styling*/
 .centered {
 	display: flex;
 	flex-direction: column;
@@ -167,6 +183,7 @@ p1{
 	font-size: 18px;
 	color: #2655a6;
 }
+/*Motivation Image Styling*/
 .Motivation {
 	max-width: 25%;
 	border: 4px solid #343deb;
@@ -174,6 +191,7 @@ p1{
 	display: block;
 	margin: 0 auto;
 }
+/*Responsive Styles*/
 @media (max-width: 768px) {
 	/*For tablets*/
 	body {
@@ -288,6 +306,7 @@ p1{
 		padding: 0.5rem;
 	}
 }
+/*Footer Styling*/
 footer {
 	text-align: center;
 	height: 10vh;
