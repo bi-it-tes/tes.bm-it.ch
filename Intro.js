@@ -11,16 +11,16 @@ window.addEventListener('DOMContentLoaded', () => {
             }, (idx + 1) * 400)
         });
 
-        setTimeout(()=> {
+        setTimeout(() => {
             logoSpan.forEach((span, idx) => {
-                setTimeout(()=> {
+                setTimeout(() => {
                     span.classList.remove('active');
                     span.classList.add('fade');
-            }, (idx + 1) * 50);
-        });
-        },2000);
+                }, (idx + 1) * 50);
+            });
+        }, 2000);
 
-        setTimeout(()=>{
+        setTimeout(() => {
             intro.style.top = '-100vh';
 
             //navigation visible after intro
