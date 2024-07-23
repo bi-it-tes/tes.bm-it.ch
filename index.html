@@ -4,132 +4,44 @@
 <head>	
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="theme-color" content="#ffffff"> <!--Hintergrundfarbe der Adressleiste im Browser-->
-	<link rel="stylesheet" href="Style.css">
-	<link rel="responsiv stylesheet" href="Responsiv.css">
 	<title>My first Website</title>
+	<link rel="stylesheet" href="Style.css">
+
 </head>
+<!--Welcome Intro-->
+<!--
+<div class="intro">  
+	<span class="logo">Wel</span><span class="logo">come.</span> 
+</div> -->
 
 <body>
-	<!--Welcome Intro-->
-	<div class="intro"> 
-		<h1 class="logo-header"> 
-			<span class="logo">Wel</span><span class="logo">come.</span> 
-		</h1>
-	</div>
+	<header class="header">
+		<a href="#" class="logo-header">Sabina.</a>
 
-	<!--navigation links-->
-<div class="navigation">
-	<header>
-		<nav>
-			<ul>
-				<li> <a href="#home" class="active">Home</a> </li>
-				<li> <a href="#skills">My Skills</a> </li>
-				<li> <a href="#resume">Personal Resume</a> </li>
-				<li> <a href="#contacts">Contacts</a> </li>
-			</ul>
+		<nav class="navbar">
+			<a href="#home" class="active">Home</a> 
+			<a href="#skills">My Skills</a> 
+			<a href="#resume">Personal Resume</a> 
+			<a href="#contacts">Contacts</a> 
+			
 		</nav>
+
 	</header>
-</div>
+
 	
-<main>
-	<section id="home">Home
-		<div class="text-animation">
-			<h2>Welcome</h2>
-		</div>
-	
-		<!--Motivations Bild-->
-		<img class="Motivation" src="s1aoRp.jpg" alt="Motivational Image"> 
-		
-		<!--Inhalt/message-->
-		<div class="centered">
-			<img class="Profilbild" src="undraw_Programmer_re_owql.png" alt="Profile picture">
-			<h3>My name is Sabina Teleskumar</h3>
-			<p1>This Website is my own creation</p1>
-			<p1>I'm at my first year of my apprenticeship as an Computer Science application developer<br></p1>
-			<br> <p1>I'm at my beginning, just wait and see...</p1>
-			</div>
-	</section>
-	
-	<section id="skills">Skills
-		<p2>Same old story everywhere. The layout is ready,
-			the text is a long time coming. So that the layout doesn't stand naked in the room and feel small and empty,
-			I jump in: the blind text. Created precisely for this purpose,
-			always in the shadow of my big brother "Lorem Ipsum",
-			I'm happy every time you read a few lines.
-			Because esse est percipi - being is being perceived.
-			And since you have the goodness to accompany me for a few more sentences,
-			I would like to take this opportunity to serve you not only as a gap filler,
-			but to point out something that also deserves to be noticed:
-			Web standards namely. You see, web standards are the set of rules on which websites are built.
-			There are rules for HTML, CSS, JavaScript and even XML; words,
-			which you may have heard from your developer.
-			These standards ensure that everyone involved gets the most out of a website.
-			For example, unlike previous websites, we no longer have to use two different websites for the
-			Program Internet Explorer and another browser. One page is enough
-			which - properly designed - works on various browsers on the Internet, but is also just as good for printing or</p2>
+ <!-- OnePage Sections
+	<section id="part_1">
+		<h1>first</h1>
 	</section>
 
-	<section id="resume">Personal Resume
-		<p2>Same old story everywhere. The layout is ready,
-			the text is a long time coming. So that the layout doesn't stand naked in the room and feel small and empty,
-			I jump in: the blind text. Created precisely for this purpose,
-			always in the shadow of my big brother "Lorem Ipsum",
-			I'm happy every time you read a few lines.
-			Because esse est percipi - being is being perceived.
-			And since you have the goodness to accompany me for a few more sentences,
-			I would like to take this opportunity to serve you not only as a gap filler,
-			but to point out something that also deserves to be noticed:
-			Web standards namely. You see, web standards are the set of rules on which websites are built.
-			There are rules for HTML, CSS, JavaScript and even XML; words,
-			which you may have heard from your developer.
-			These standards ensure that everyone involved gets the most out of a website.
-			For example, unlike previous websites, we no longer have to use two different websites for the
-			Program Internet Explorer and another browser. One page is enough
-			which - properly designed - works on various browsers on the Internet, but is also just as good for printing or</p2>
+	<section id="part_2">
+		<h1>second</h1>
 	</section>
-	<!--Contact Form-->
-	<section id="contacts">Contact me
 
-		<form action="#"> <!--Zielserver URL angeben-->
-			<div class="input-box">
-				<div class="input-field field">
-					<input type="text" placeholder="Full Name" id="name" class="contactForm" autocomplete="off">
-				</div>
-
-				<div class="input-field field">
-					<input type="text" placeholder="Email Address" id="email" class="contactForm" autocomplete="off">
-				</div>
-
-			<div class="input-box">
-				<div class="input-field field">
-					<input type="text" placeholder="Phone Number" id="phone" class="contactForm" autocomplete="off">
-				</div>
-	
-				<div class="input-field field">
-					<input type="text" placeholder="Subject" id="subject" class="contactForm" autocomplete="off">
-				</div>
-			</div>
-
-			<div class="textarea-field field">
-				<textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" class="contactForm" autocomplete="off"></textarea>
-			</div>
-
-			<button type="submit">Send Message</button>
-		</form>
+	<section id="part_">
+		<h1>third</h1>
 	</section>
-</main>
-<!--Footer-->
-	<footer>
-		<p>copyright© 2024 Sabina Teleskumar</p>
-		<p>Version 0.4</p>
-		<p>27.02.2024</p>
-		<!--CC, Crative Commins Lizenz, Copy rights-->
-		<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc :attributionURL" href="https://tes.bm-it.ch/">My own Website </a> from <span property="cc:attributionName">Sabina Teleskumar</span> is licensed under <a href ="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text -unten;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text -unten;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text -unten;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1"></a></p>
-		<!--PrivcyPolicy-->
-		<a href= "Lizenz_Datenschutz/Datenschutzerklärung.pdf" target="_blank">https://tes.bm-it.ch/PrivacyPolicy
-	</footer>
+-->
 </body> 
-<script src="Intro.js"></script> 
-<script src="scroll.js"></script>
+<!--<script src="Intro.js"></script> -->
 </html>
