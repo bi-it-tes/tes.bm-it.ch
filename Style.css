@@ -7,22 +7,8 @@
 
 body {
 	background:#081b29 ;
-	position: relative;
-	overflow: hidden;
-	height: 100vh;
+	color: #ededed;
 }
-
-/*section {
-	padding: 3em 1em 1em;
-	width: 100%;
-	height: 100vh;
-	background: white ;
-	opacity: 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	transition: all 0.5s;
-}*/
 
 .header {
 	position: fixed;
@@ -56,4 +42,10 @@ body {
 .navbar a:hover,
 .navbar a.active {
 	color: #00abf0;	
+}
+
+.home {
+	height: 100vh;
+	display: flex;
+	align-items: center;
 }
