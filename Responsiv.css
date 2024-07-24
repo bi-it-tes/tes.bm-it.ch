@@ -1,0 +1,141 @@
+/*Mobile: 768px*/
+@media screen and (max-width: 758px){
+    .header {
+        padding: 10px 5%;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .home {
+        padding: 5%;;
+    }
+
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+    }
+
+    .home-content .btn-box {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .btn-box a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .home-sci {
+        width: 100%;
+        bottom: 20px;
+        justify-content: space-around;
+    }
+
+    .home-imgHover {
+        width: 100%;
+        right: 0;
+    }
+}
+
+/*Tablet: 769px - 1024px*/
+@media screen and (max-width: 769px) and (max-width: 1024px){
+    .header {
+        padding: 15px 8%;
+    }
+
+    .navbar a {
+        font-size: 18px;
+        margin-left: 25px;
+    }
+
+    .home {
+        padding: 8%;;
+    }
+
+    .home-content h1 {
+        font-size: 48px;
+    }
+
+    .home-content h3 {
+        font-size: 28px;
+    }
+
+    .home-content p {
+        font-size: 15px;
+    }
+
+    .home-content .btn-box {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .btn-box a {
+        width: 45%;
+    }
+
+    .home-sci {
+        width: 200px;
+        bottom: 30px;
+    }
+
+    .home-imgHover {
+        width: 400px;
+        right: 20px;
+    }
+}
+/*Laptop: >1024px*/
+@media screen and (max-width: 1024px){
+    .header {
+        padding: 20px 10%;
+    }
+
+    .navbar a {
+        font-size: 18px;
+        margin-left: 35px;
+    }
+
+    .home {
+        padding: 10%;;
+    }
+
+    .home-content h1 {
+        font-size: 56px;
+    }
+
+    .home-content h3 {
+        font-size: 32px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .home-content .btn-box {
+        width: 345px;
+    }
+
+    .btn-box a {
+        width: 150px;
+    }
+
+    .home-sci {
+        width: 170px;
+        bottom: 40px;
+    }
+
+    .home-imgHover {
+        width: 500px;
+        right: 30px;
+    }
+}
