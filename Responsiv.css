@@ -1,9 +1,5 @@
 /*Mobile: 480px*/
 @media (max-width: 480px) {
-    .header {
-       
-    }
-
     .logo {
       position: relative;
       right: 10%;
@@ -39,9 +35,7 @@
         font-size: 20px;
         line-height: 75%;
         width: 100%;
-        padding: 0 10%;
-    
-        
+        padding: 0 10%;   
     }
 
     .home-content h3 {
@@ -81,9 +75,7 @@
 
 /*Tablet: 769px*/
 @media (max-width: 769px) {
-    .header {
-       
-    }
+ 
 
     .logo {
       position: relative;
