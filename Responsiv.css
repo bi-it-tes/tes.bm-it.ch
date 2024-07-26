@@ -1,207 +1,191 @@
 /*Mobile: 480px*/
 @media (max-width: 480px) {
-    .logo {
-      position: relative;
-      right: 10%;
-      margin-bottom: 30%;
-      
-    }
-   
-    .navbar {
-        width: 10%;
-        bottom: 50%;
-      
+  .logo {
+    position: relative;
+    right: 10%;
+    margin-bottom: 30%;
+  }
 
-    }
-    .navbar a {
-        display: table-header-group;
-        font-size: 15px;
-        line-height: 90%;
-        
-    }
+  .navbar {
+    width: 10%;
+    bottom: 50%;
+  }
+  .navbar a {
+    display: table-header-group;
+    font-size: 15px;
+    line-height: 90%;
+  }
 
-    .home {
-        background-position:right bottom ;
-    }
+  .home {
+    background-position: right bottom;
+  }
 
-    .home-content {
-        max-width: 100%;
+  .home-content {
+    max-width: 100%;
+  }
 
-    }
+  .home-content h1 {
+    position: relative;
+    right: 8%;
+    font-size: 20px;
+    line-height: 75%;
+    width: 100%;
+    padding: 0 10%;
+  }
 
-    .home-content h1 {
-        position: relative;
-        right: 8%;
-        font-size: 20px;
-        line-height: 75%;
-        width: 100%;
-        padding: 0 10%;   
-    }
+  .home-content h3 {
+    position: relative;
+    font-size: 18%;
+    line-height: 80%;
+    width: 100%;
+    margin: 3%;
+  }
 
-    .home-content h3 {
-        position: relative;
-        font-size: 18%;
-        line-height: 80%;
-        width: 100%;
-        margin: 3%;
-    }
+  .home-content p {
+    font-size: 10px;
+  }
 
-    .home-content p {
-        font-size: 10px;
-    }
+  .home-content .btn-box {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+  }
 
-    .home-content .btn-box {
-        width: 100%;
-        flex-direction: column;
-        height: auto;
-    }
+  .btn-box a {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 
-    .btn-box a {
-        width: 100%;
-        margin-bottom: 10px;
-    }
+  .home-sci {
+    width: 100%;
+    bottom: 70%;
+    justify-content: space-around;
+  }
 
-    .home-sci {
-        width: 100%;
-        bottom: 70%;
-        justify-content: space-around;
-    }
-
-    .home-imgHover {
-        position: fixed;
-    
-    }
+  .home-imgHover {
+    position: fixed;
+  }
 }
 
 /*Tablet: 769px*/
 @media (max-width: 769px) {
- 
+  .logo {
+    position: relative;
+    margin-bottom: 5%;
+  }
 
-    .logo {
-      position: relative;
-      margin-bottom: 5%;
-      
-    }
-   
-    .navbar {
-        width: 15%;
-        bottom: 50%;
-    }
-    .navbar a {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-left: 90%;
-        font-size: 15px;
-        line-height: 100%;
-        
-    }
+  .navbar {
+    width: 15%;
+    bottom: 50%;
+  }
+  .navbar a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 90%;
+    font-size: 15px;
+    line-height: 100%;
+  }
 
-    .home {
-        background-position:right bottom ;
-    }
+  .home {
+    background-position: right bottom;
+  }
 
-    .home-content {
-        max-width: 100%;
+  .home-content {
+    max-width: 100%;
+  }
 
-    }
+  .home-content h1 {
+    position: center;
 
-    .home-content h1 {
-        position: center;
-        
-        font-size: 20px;
-        line-height: 75%;
-        width: 100%;
-        padding: 0 10%;
-    
-        
-    }
+    font-size: 20px;
+    line-height: 75%;
+    width: 100%;
+    padding: 0 10%;
+  }
 
-    .home-content h3 {
-        position: relative;
-        font-size: 18%;
-        line-height: 80%;
-        width: 100%;
-        margin: 8%;
-    }
+  .home-content h3 {
+    position: relative;
+    font-size: 18%;
+    line-height: 80%;
+    width: 100%;
+    margin: 8%;
+  }
 
-    .home-content p {
-        font-size: 18px;
-        width: 100%;
-    }
+  .home-content p {
+    font-size: 18px;
+    width: 100%;
+  }
 
-    .home-content .btn-box {
-        width: 100%;
-        flex-direction: column;
-        height: auto;
-    }
+  .home-content .btn-box {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+  }
 
-    .btn-box a {
-        width: 100%;
-        margin-bottom: 10px;
-    }
+  .btn-box a {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 
-    .home-sci {
-        width: 100%;
-        bottom: 70%;
-        justify-content: space-around;
-    }
+  .home-sci {
+    width: 100%;
+    bottom: 70%;
+    justify-content: space-around;
+  }
 
-    .home-imgHover {
-        position: fixed;
-    
-    }
+  .home-imgHover {
+    position: fixed;
+  }
 }
 /*Laptop: 1024px*/
-@media (max-width: 1024px){
-    .header {
-        padding: 20px 10%;
-    }
+@media (max-width: 1024px) {
+  .header {
+    padding: 20px 10%;
+  }
 
-    .navbar {
-        width: 70%;
-    
-    }
+  .navbar {
+    width: 70%;
+  }
 
-    .navbar a {
-        font-size: 18px;
-        margin-left: 30px;
-    }
+  .navbar a {
+    font-size: 18px;
+    margin-left: 30px;
+  }
 
-    .home {
-        padding: 10%;
-        background-size: auto ;
-        
-    }
+  .home {
+    padding: 10%;
+    background-size: auto;
+  }
 
-    .home-content h1 {
-        font-size: 56px;
-    }
+  .home-content h1 {
+    font-size: 56px;
+  }
 
-    .home-content h3 {
-        font-size: 32px;
-    }
+  .home-content h3 {
+    font-size: 32px;
+  }
 
-    .home-content p {
-        font-size: 16px;
-    }
+  .home-content p {
+    font-size: 16px;
+  }
 
-    .home-content .btn-box {
-        width: 345px;
-    }
+  .home-content .btn-box {
+    width: 345px;
+  }
 
-    .btn-box a {
-        width: 150px;
-    }
+  .btn-box a {
+    width: 150px;
+  }
 
-    .home-sci {
-        width: 170px;
-        bottom: 40px;
-    }
+  .home-sci {
+    width: 170px;
+    bottom: 40px;
+  }
 
-    .home-imgHover {
-        width: 80%;
-        left: 80%;
-        top: 55%;
-    }
+  .home-imgHover {
+    width: 80%;
+    left: 80%;
+    top: 55%;
+  }
 }
