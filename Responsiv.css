@@ -65,6 +65,16 @@
   .home-imgHover {
     position: fixed;
   }
+
+  .skills-content h1 {
+    position: relative;
+    right: 8%;
+    font-size: 20px;
+    line-height: 75%;
+    width: 100%;
+    padding: 0 10%;
+  }
+
 }
 
 /*Tablet: 769px*/
@@ -137,6 +147,15 @@
   .home-imgHover {
     position: fixed;
   }
+
+  .skills-content h1 {
+    position: relative;
+    right: 8%;
+    font-size: 20px;
+    line-height: 75%;
+    width: 100%;
+    padding: 0 10%;
+  }
 }
 /*Laptop: 1024px*/
 @media (max-width: 1024px) {
@@ -184,8 +203,10 @@
   }
 
   .home-imgHover {
-    width: 80%;
+    width: 100%;
     left: 80%;
     top: 55%;
   }
 }
+
+/*My PC is 1920 x 1080*/

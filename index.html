@@ -11,19 +11,19 @@
       rel="stylesheet"
     />
   </head>
-
+<!--Header-->
   <body>
     <header class="header">
       <a href="#" class="logo">Sabina.</a>
 
       <nav class="navbar">
         <a href="#" class="active">Home</a>
-        <a href="#part2">My Skills</a>
+        <a href="#">Timeline</a>
         <a href="#">Personal Resume</a>
         <a href="#">Contacts</a>
       </nav>
     </header>
-
+<!--Home Section-->
     <section class="home">
       <div class="home-content">
         <h1>Hi, I'm Sabina Teleskumar</h1>
@@ -37,12 +37,13 @@
           exercitationem blanditiis soluta porro in, doloribus provident
           accusamus fuga asperiores?
         </p>
+<!--Contact Buttons-->
         <div class="btn-box">
           <a href="#">Hire Me</a>
           <a href="#">Let's Talk</a>
         </div>
       </div>
-
+<!--Buttons for liniking-->
       <div class="home-sci">
         <a href="#"><i class="bx bxl-facebook-circle"></i></a>
         <a href="#"><i class="bx bxl-github"></i></a>
@@ -51,20 +52,98 @@
 
       <span class="home-imgHover"></span>
     </section>
-    <section class="skills">
-      <div class="skils-content">
-        <h1>Hi, I'm Sabina Teleskumar</h1>
-        <h3>
-          I'm doing my Apprentiship to Computer Scientist, Application
-          Development
-        </h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
-          reiciendis commodi veritatis repellendus a natus iure ut
-          exercitationem blanditiis soluta porro in, doloribus provident
-          accusamus fuga asperiores?
-        </p>
+<!--Timeline Section-->
+    <section class="timeline">
+      <div class="timeline-content">
+        <h1>My <span>Timeline</span></h1>
+        <br>
+		<div class="timeline-wrapper">
+			<div id="timeline-bar-container">
+				<!--Timeline steps-->
+				<ul>
+					<li class="step step01 active">
+						<div class="step-inner">My Birth</div>
+					</li>
+					
+					<li class="step step02">
+						<div class="step-inner">Kindergarten</div>
+					</li>
+
+					<li class="step step03">
+						<div class="step-inner">Primary School</div>
+					</li>
+
+					<li class="step step04">
+						<div class="step-inner">High School</div>
+					</li>
+
+					<li class="step step04">
+						<div class="step-inner">10th grade</div>
+					</li>
+				</ul>
+				<!--Timeline line-->
+				<div id="line">
+					<div id="line-process"></div>
+				</div>
+			</div>
+			<!--Timeline Steps content-->
+			<div id="progress-content-section">
+				<div class="section-content section-birth active">
+					<h2>My Birth</h2>
+					<p> 
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
+						reiciendis commodi veritatis repellendus a natus iure ut
+						exercitationem blanditiis soluta porro in, doloribus provident
+						accusamus fuga asperiores?
+					</p>
+				</div>
+			
+				<div class="section-content section-kindergarten">
+					<h2>Kindergarten</h2>
+					<p> 
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
+						reiciendis commodi veritatis repellendus a natus iure ut
+						exercitationem blanditiis soluta porro in, doloribus provident
+						accusamus fuga asperiores?
+					</p>
+				</div>	
+
+				<div class="section-content section-Primary">
+					<h2>Primary School</h2>
+					<p> 
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
+						reiciendis commodi veritatis repellendus a natus iure ut
+						exercitationem blanditiis soluta porro in, doloribus provident
+						accusamus fuga asperiores?
+					</p>
+				</div>
+
+				<div class="section-content section-highschool ">
+					<h2>High School</h2>
+					<p> 
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
+						reiciendis commodi veritatis repellendus a natus iure ut
+						exercitationem blanditiis soluta porro in, doloribus provident
+						accusamus fuga asperiores?
+					</p>
+				</div>
+
+				<div class="section-content section-grade10">
+					<h2>10th class</h2>
+					<p> 
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
+						reiciendis commodi veritatis repellendus a natus iure ut
+						exercitationem blanditiis soluta porro in, doloribus provident
+						accusamus fuga asperiores?
+					</p>
+				</div>
+
+			</div>
+		</div>
+        
       </div>
     </section>
+
+	<script src="timeline.js"></script>
   </body>
 </html>
