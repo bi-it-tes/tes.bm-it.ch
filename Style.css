@@ -497,32 +497,44 @@ body {
   backdrop-filter: blur(10px);
 }
 
-.shape-1 {
+.liquid_shape-1 {
   height: 220px;
   width: 220px;
-  background: linear-gradient(
-    #ff0e72,
-    #ff66a6
-  );
-  border-radius: 50%;
+  background: linear-gradient(45deg, #ff0e72 0%, #ff66a6 100%);
+  box-shadow: 0 0 20px #081b29;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   position: absolute;
   bottom: -100px;
   left: -80px; 
   z-index: -1;
+  animation: liquid 8s ease-in-out infinite;
 }
 
-.shape-2 {
+@keyframes liquid {
+  0% {
+    border-radius:60% 40% 30% 70% / 60% 30% 70% 40%;
+    background-size: 100% 100%;
+  }
+  50% {
+    border-radius:30% 60% 70% 40% / 50% 60% 30% 60%;
+    background-size:300% 150%;
+  }
+  100% {
+      border-radius:60% 40% 30% 70% / 60% 30% 70% 40%;
+      background-size: 100% 100%;
+  }
+}
+
+.liquid_shape-2 {
   height: 180px;
   width: 180px;
-  background: linear-gradient(
-    #3da5e0,
-    #325ea5
-  );
-  border-radius: 50%;
+  background: linear-gradient(45deg, #3da5e0, #325ea5 100%);
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   position: absolute;
   top: -100px;
   right: -50px;
   z-index: -1;
+  animation: liquid 8s ease-in-out infinite;
 }
 
 .skillsbar-container * {
