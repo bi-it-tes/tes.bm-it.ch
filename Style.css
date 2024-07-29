@@ -501,7 +501,7 @@ body {
   height: 220px;
   width: 220px;
   background: linear-gradient(45deg, #ff0e72 0%, #ff66a6 100%);
-  box-shadow: 0 0 20px #081b29;
+  box-shadow: 0 0 20px #2574ab;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   position: absolute;
   bottom: -100px;
@@ -529,6 +529,7 @@ body {
   height: 180px;
   width: 180px;
   background: linear-gradient(45deg, #3da5e0, #325ea5 100%);
+  box-shadow: 0 0 20px #2574ab;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   position: absolute;
   top: -100px;
