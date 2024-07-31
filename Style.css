@@ -325,6 +325,14 @@ body {
   position: absolute;
   left: 0;
   transform: scaleX(-1);
+  transition: .1s ease;
+}
+ 
+.timeline-content img:hover {
+  -webkit-transform: rotateZ(-10deg);
+  -ms-transform: rotateZ(-10deg);
+  transform: rotateZ(-10deg);
+  transition: 1s ease-in-out;
 }
 
 .timeline-content h1 {
