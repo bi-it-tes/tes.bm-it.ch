@@ -316,24 +316,41 @@ body {
 
 .timeline-content {
   max-width: 900px;
+  position: relative;
+}
+
+.img-container {
+  position: relative;
 }
 
 .timeline-content img {
-  margin-top: 370px;
+  margin-top: 320px;
   width: 345px;
   height: auto;
   position: absolute;
-  left: 0;
+  right: 800px;
   transform: scaleX(-1);
-  transition: .1s ease;
+  transition: opacity 1s ease-in-out;
+}
+
+.img-container .img1 {
+  opacity: 0;
 }
  
+.img-container:hover .img2 {
+  opacity: 0;
+}
+
+.img-container:hover .img1 {
+  opacity: 1;
+}
+/*
 .timeline-content img:hover {
   -webkit-transform: rotateZ(-10deg);
   -ms-transform: rotateZ(-10deg);
   transform: rotateZ(-10deg);
   transition: 1s ease-in-out;
-}
+}*/
 
 .timeline-content h1 {
   color: white;
