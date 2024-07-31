@@ -9,7 +9,6 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: mandatory;
 }
 body {
   color: #ededed;
@@ -317,6 +316,15 @@ body {
 
 .timeline-content {
   max-width: 900px;
+}
+
+.timeline-content img {
+  margin-top: 370px;
+  width: 345px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  transform: scaleX(-1);
 }
 
 .timeline-content h1 {
@@ -648,7 +656,7 @@ body {
 
 @keyframes node-fill {
   100%{
-    width: 75%;
+    width: 4%;
   }
 }
 #python-bar {
